@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 8px 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+#recommendationScreen {
+    display: none;
+}
+
+#feedbackScreen {
+    display: none;
+}
+
+#editorScreen {
+    display: none;
+}
+
+#browseScreen {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    margin-top: 10px;
+}
+
+#lastUpdatedText {
+    font-size: 14px;
+    color: gray;
+}
+
+#browseList button {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#browseList {
+    margin-top: 15px;
+}
+
+input,
+select,
+textarea {
+    font-size: 16px;
+}
+
+#saveButton,
+#deleteButton {
+    margin-top: 15px;
+}

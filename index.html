@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decision Engine</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>Decision Engine</h1>
+
+
+
+<!--
+-------------------------------------------
+Home Screen
+-------------------------------------------
+-->
+
+
+
+<div id="homeScreen">
+
+    <!--Reoccurring Buttons-->
+
+    <button id="homeHomeButton">
+        Home
+    </button>
+    <button id="homeEditorButton">
+        Add/Edit
+    </button>
+    <button id="homeBrowseButton">
+        Browse
+    </button>
+
+    <!--Begin Home Display-->
+
+    <h2>Choose a Category</h2>
+
+    <button id="restaurantButton">
+        Restaurants
+    </button>
+
+    <button id="movieButton">
+        Movies & TV
+    </button>
+
+    <button id="recipeButton">
+        Recipes
+    </button>
+
+    <button id="daytripButton">
+        Day Trips
+    </button>
+
+    <button id="dateideaButton">
+        Date Ideas
+    </button>
+
+    <p id="upcomingText">
+        Wondering what's in store?</p>
+    <button id="onTheAgendaButton">
+        On the Agenda
+    </button>
+
+    <div id="agendaList"></div>
+
+</div>
+
+
+
+<!--
+-------------------------------------------
+Recommendation Screen
+-------------------------------------------
+-->
+
+
+
+<div id="recommendationScreen">
+
+    <!--Reoccurring Buttons-->
+
+    <button id="recommendationHomeButton">
+        Home
+    </button>
+    <button id="recommendationEditorButton">
+        Add/Edit
+    </button>
+    <button id="recommendationBrowseButton">
+        Browse
+    </button>
+
+    <!--Begin Recommendation Display-->
+
+    <h2>Recommendation</h2>
+
+    <h3 id="categoryTitle">Category</h3>
+       
+    <p id="recommendationText">
+        Your recommendation will appear here.
+    </p>
+    
+    <button id="selectionButton">
+        Let's Do This
+    </button>
+    
+    <button id="rerunButton">
+        Choose Again
+    </button>
+    
+    <button id="didthisButton">
+        We Did This
+    </button>
+
+    <p id="familiarText">
+        Looking for something familiar?
+    </p>
+    
+    <button id="selectFavoriteButton">
+        Recommend a Favorite
+    </button>
+
+</div>
+
+
+
+<!--
+-------------------------------------------
+Feedback Screen
+-------------------------------------------
+-->
+
+
+
+<div id="feedbackScreen">
+
+    <!--Reoccurring Buttons-->
+
+    <button id="feedbackHomeButton">
+        Home
+    </button>
+    <button id="feedbackBackToRecommendationButton">
+        Back to Recommendation
+    </button>
+
+    <!--Begin Feedback Display-->
+
+    <h2>How did it go?</h2>
+
+    <p id="feedbackItemText">
+        Item Name Here
+    </p>
+
+    <button id="lovedButton">
+        Loved It
+    </button>
+
+    <button id="likedButton">
+        Liked It
+    </button>
+
+    <button id="notAgainButton">
+        Not Again
+    </button>
+
+    <button id="didntDoButton">
+        Didn't Do It
+    </button>
+
+    <button id="skipForNowButton">
+        Skip For Now
+    </button>
+</div>
+
+
+
+<!--
+-------------------------------------------
+Add/Edit Screen
+-------------------------------------------
+-->
+
+
+
+<div id="editorScreen">
+
+    <!--Reoccurring Buttons-->
+
+    <button id="editorHomeButton">
+        Home
+    </button>
+    <button id="editorEditorButton">
+        Add/Edit
+    </button>
+    <button id="editorBrowseButton">
+        Browse
+    </button>
+
+    <!--Begin Add/Edit Display-->
+    
+    <h2>Add/Edit Item</h2>
+
+    <p>
+        What do you want to add?
+    </p>
+
+    <input id="editorNameInput" type="text"><br>
+
+    <label>Category</label>
+
+    <select id="categoryInput">
+
+        <option value="restaurants">
+            Restaurants
+        </option>
+
+        <option value="movies">
+            Movies / TV
+        </option>
+
+        <option value="recipes">
+            Recipes
+        </option>
+
+        <option value="dateideas">
+            Date Ideas
+        </option>
+
+        <option value="daytrips">
+            Day Trips
+        </option>
+
+    </select><br>
+   
+    <label>Source</label>
+        <input id="sourceInput" type="text"><Br>
+
+    <label>Status</label>
+
+        <select id="statusInput">
+
+            <option value="Want To Try">
+                Want To Try
+            </option>
+
+            <option value="Planned">
+                Planned
+            </option>
+            
+            <option value="Completed">
+                Completed
+            </option>
+
+        </select><br>
+    
+    <label>Rating</label>
+        <select id="ratingInput">
+            <option id="Loved It">
+                Loved It
+            </option>
+
+            <option id="Liked It">
+                Liked It
+            </option>
+
+            <option id="Not Again">
+                Not Again
+            </option>
+            <option id="">
+
+            </option>
+        </select>
+
+    <p id="lastUpdatedText"></p>
+    
+    <label>Notes</label>
+        <textarea id="notesInput">
+        </textarea><br>
+
+    <button id="saveButton">
+        Save
+    </button>
+    
+    <button id="deleteButton">
+        Delete
+    </button>
+
+</div>
+
+
+
+<!--
+-------------------------------------------
+Browse Screen
+-------------------------------------------
+-->
+
+
+
+<div id="browseScreen">
+   
+    <!--Reoccurring Buttons-->
+
+    <button id="browseHomeButton">
+        Home
+    </button>
+    <button id="browseEditorButton">
+        Add/Edit
+    </button>
+    <button id="browseBrowseButton">
+        Browse
+    </button>
+
+    <!--Begin Browse Display-->
+
+    <h2>Browse</h2>
+
+    <button id="activeItemsButton">
+        Active
+    </button>
+    <button id="plannedItemsButton">
+        Planned
+    </button>
+    <button id="completedItemsButton">
+        Completed
+    </button>
+    
+    <div id="browseList"></div>
+    
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
