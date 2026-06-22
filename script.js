@@ -375,7 +375,7 @@ const lastUpdatedText =
     document.getElementById("lastUpdatedText");
 
 //-------------
-//RECOMMENDATION FUNCTIONS ("I want DE to recommend something.")
+//RECOMMENDATION FUNCTIONS ("I want Idea Dice to recommend something.")
 //-------------
 
 function recommend(items) {
@@ -755,7 +755,7 @@ function showCompletedItems() {
 }
 
 //-------------
-//CONNECT TO GOOGLE SHEETS ("I want to store my DE data in Google Sheets.")
+//CONNECT TO GOOGLE SHEETS ("I want to store my Idea Dice data in Google Sheets.")
 //-------------
 
 async function sendItemToSheet(item) {

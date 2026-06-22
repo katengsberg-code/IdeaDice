@@ -1,6 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Nunito', Arial, sans-serif;
     margin: 20px;
+    background-color: white;
+    color: #1F2A44;
+}
+
+#logo {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto 20px auto;
+}
+
+#tagline {
+    text-align: center;
+    font-style: italic;
+    color: #1F2A44;
 }
 
 button {
@@ -8,6 +23,9 @@ button {
     padding: 8px 16px;
     margin-top: 5px;
     margin-bottom: 5px;
+    background-color: #1F2A44;
+    color: #FAFAF7;
+    border: none;
 }
 
 p {
@@ -15,8 +33,15 @@ p {
     font-size: 20px;
 }
 
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #F4B400;
+}
+
 h2 {
     font-size: 26px;
+    color: #1F2A44;
 }
 
 #recommendationScreen {
@@ -65,4 +90,11 @@ textarea {
 #saveButton,
 #deleteButton {
     margin-top: 15px;
+}
+
+#recommendationText {
+    font-size: 32px;
+    margin-top: 20px;
+    color: #F57C00;
+    font-weight: bold;
 }
