@@ -129,6 +129,8 @@ let isNewItem = false;
 
 let browseMode = "active";
 
+let agendaVisible = false;
+
 
 //-------------
 //PAGE ELEMENTS -- these functions ref directly to HTML elements that appear on screen
@@ -754,6 +756,28 @@ function showAgendaItems() {
     }
 }
 
+function toggleAgenda() {
+
+    if (agendaVisible) {
+
+        agendaList.innerHTML = "";
+
+        onTheAgendaButton.textContent =
+            "On the Agenda";
+
+        agendaVisible = false;
+
+        return;
+    }
+
+    showAgendaItems();
+
+    onTheAgendaButton.textContent =
+        "Hide Agenda";
+
+    agendaVisible = true;
+}
+
 function showCompletedItems() {
 
     browseMode = "completed";
@@ -1223,10 +1247,8 @@ recipeButton.addEventListener(
 
 onTheAgendaButton.addEventListener(
     "click",
-    function() {
-        showAgendaItems()
-    }
-)
+    toggleAgenda
+);
 
 for (const button of homeButtons) {
     button.addEventListener(
