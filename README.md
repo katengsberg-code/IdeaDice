@@ -36,6 +36,9 @@ June 2026
 FUTURE ENHANCEMENTS:
 - Shared editing
 - User accounts
+- Search function in Browse
+- Filter By Category, Rating function in Browse
+- Possibly removing previously recommended items from Choose Again pool until after refresh
 - Statistics dashboard
 - Native mobile app
 - Geolocation-based recommendations
