@@ -38,7 +38,7 @@ FUTURE ENHANCEMENTS:
 - User accounts
 - Search function in Browse
 - Filter By Category, Rating function in Browse
-- On the Agenda should tap to show and tap again to hide
+- Possibly removing previously recommended items from Choose Again pool until after refresh
 - Statistics dashboard
 - Native mobile app
 - Geolocation-based recommendations
