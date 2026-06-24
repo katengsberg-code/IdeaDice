@@ -36,6 +36,9 @@ June 2026
 FUTURE ENHANCEMENTS:
 - Shared editing
 - User accounts
+- Search function in Browse
+- Filter By Category, Rating function in Browse
+- On the Agenda should tap to show and tap again to hide
 - Statistics dashboard
 - Native mobile app
 - Geolocation-based recommendations
