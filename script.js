@@ -135,6 +135,9 @@ let browseMode = "active";
 //-------------
 
 /* SCREENS */
+const landingScreen =
+    document.getElementById("landingScreen");
+
 const homeScreen =
     document.getElementById("homeScreen");
 
@@ -151,6 +154,7 @@ const browseScreen =
     document.getElementById("browseScreen");
 
 const screens = [
+    landingScreen,
     homeScreen,
     recommendationScreen,
     feedbackScreen,
@@ -165,6 +169,9 @@ let previousScreen = homeScreen;
 
     /* REOCCURRING BUTTONS ***Note: To force feedback, we do not
 include an Editor or Browse button on the Feedback page.*/
+
+const startButton =
+    document.getElementById("startButton");
 
 const homeEditorButton =
     document.getElementById("homeEditorButton");
@@ -1171,6 +1178,13 @@ loadFromSheet();
 //-------------
 //EVENT LISTENERS (Actions to Take When Triggered)
 //-------------
+
+startButton.addEventListener(
+    "click",
+    function() {
+        showScreen(homeScreen);
+    }
+)
 
 restaurantButton.addEventListener(
     "click",

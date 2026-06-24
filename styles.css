@@ -44,6 +44,16 @@ h2 {
     color: #1F2A44;
 }
 
+#homeScreen {
+    display: none;
+}
+
+#welcomeNote {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #recommendationScreen {
     display: none;
 }
